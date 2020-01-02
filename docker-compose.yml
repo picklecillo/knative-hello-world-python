@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  helloworld-python:
+    build:
+      context: app
+    environment:
+        PORT: 80
+    ports:
+      - 80:80
